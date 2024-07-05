@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+     background: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background-color:rgb(121, 82, 179) ;
+    font-size: 2em;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.signature-container {
+    border: 2px dashed #cccccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+canvas {
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+
+    background-color: rgb(121, 82, 179);
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-right: 10px ;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: rgba(115, 75, 165, 0.7);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+    background-color: rgb(112, 73, 160);
+}
